@@ -22,11 +22,14 @@ Este repositorio se enfoca en:
 
 ```text
 docs/       → Documentación técnica y guías de estudio
-scripts/    → Scripts operacionales y automatización Linux
-security/   → Scripts de auditoría y seguridad del host
-reports/    → Reportes y evidencias generadas
-assets/     → Imágenes y capturas del laboratorio
+labs/       → Laboratorios prácticos organizados por módulo
+security/   → Scripts de auditoría y hardening del host
+scripts/    → Automatización y operaciones Linux
+reports/    → Evidencias y lecciones aprendidas
+assets/     → Capturas e imágenes del laboratorio
 ```
+
+
 
 ---
 
@@ -49,6 +52,44 @@ Enfocado en:
 - Automatización de seguridad
 
 ---
+
+## 📈 Estado del Laboratorio
+
+### Módulos completados
+
+* [x] Linux Filesystem Foundations
+* [x] Users and Permissions
+* [x] Process Management
+
+### Módulos en progreso
+
+* [ ] Networking Foundations
+
+### Próximos módulos
+
+* [ ] System Monitoring
+* [ ] Package Management
+* [ ] Linux Hardening
+* [ ] Bash Scripting
+* [ ] Docker Foundations
+* [ ] Git & GitHub Foundations
+
+
+
+## 🎓 Competencias Desarrolladas
+
+Durante este laboratorio se practican habilidades en:
+
+* Administración Linux
+* Troubleshooting Operacional
+* Gestión de Usuarios y Permisos
+* Seguridad del Host
+* Monitoreo de Procesos
+* Networking Linux
+* Bash Scripting
+* Docker Foundations
+* Automatización
+* Pensamiento DevSecOps
 
 ## 👨‍💻 Autor
 
