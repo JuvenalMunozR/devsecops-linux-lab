@@ -355,3 +355,191 @@ Esto forma parte de la cadena de confianza (Supply Chain Security).
 Objetivo:
 
 Garantizar que el paquete descargado no haya sido alterado durante la distribución.
+
+## Lección Aprendida #007
+
+El grupo sudo otorga privilegios administrativos.
+
+Pertenecer al grupo sudo no garantiza acceso inmediato.
+
+Es necesario conocer la contraseña del usuario Linux para utilizar sudo.
+
+Comando de verificación:
+
+id
+
+Permite identificar los grupos asociados al usuario actual.
+
+Relación DevSecOps:
+
+Principio de mínimo privilegio y control de acceso administrativo.
+
+## Lección Aprendida #008
+
+El archivo /etc/passwd contiene todas las cuentas registradas en el sistema.
+
+No todas corresponden a usuarios humanos.
+
+Muchas cuentas pertenecen a servicios internos del sistema operativo.
+
+Comando:
+
+cat /etc/passwd
+
+Relación DevSecOps:
+
+Auditoría de cuentas y reducción de superficie de ataque.
+
+## Lección Aprendida #009
+
+El grupo sudo define qué usuarios pueden ejecutar tareas administrativas.
+
+Comando:
+
+getent group sudo
+
+Objetivo:
+
+Identificar usuarios con privilegios elevados.
+
+Relación DevSecOps:
+
+Control de acceso privilegiado (PAM) y principio de mínimo privilegio.
+
+## Lección Aprendida #010
+
+El comando:
+
+ss -tulnp
+
+permite identificar:
+
+- Puertos abiertos
+- Protocolos TCP/UDP
+- Procesos asociados
+
+Objetivo:
+
+Detectar servicios expuestos y reducir la superficie de ataque.
+
+Relación DevSecOps:
+
+Attack Surface Reduction.
+
+## Lección Aprendida #011
+
+Un sistema con menos servicios expuestos presenta menor superficie de ataque.
+
+Antes de desplegar un servidor se recomienda identificar:
+
+- Puertos abiertos
+- Servicios activos
+- Servicios innecesarios
+
+Relación DevSecOps:
+
+Hardening y Zero Trust.
+
+## Lección Aprendida #012
+
+AppArmor es un mecanismo de seguridad que restringe las acciones permitidas a procesos y aplicaciones.
+
+Comando de auditoría:
+
+systemctl status apparmor
+
+Relación DevSecOps:
+
+Defensa en profundidad.
+
+## Lección Aprendida #013
+
+La automatización de auditorías permite verificar
+controles de seguridad de forma repetible y consistente.
+
+En lugar de ejecutar comandos manualmente,
+se encapsulan verificaciones dentro de scripts.
+
+Relación DevSecOps:
+
+Security as Code.
+
+## Lección Aprendida #014
+
+El comando:
+
+systemctl is-enabled unattended-upgrades
+
+permite verificar si las actualizaciones automáticas están habilitadas.
+
+Resultado observado:
+
+enabled
+
+Interpretación:
+
+El sistema puede aplicar actualizaciones de seguridad automáticamente.
+
+Relación DevSecOps:
+
+Patch Management y reducción de exposición a vulnerabilidades conocidas.
+
+## Lección Aprendida #015
+
+En entornos WSL algunos servicios de seguridad pueden aparecer como inactive.
+
+Ejemplo:
+
+AppArmor
+
+Esto no implica necesariamente una configuración insegura, ya que WSL no replica completamente el comportamiento de una instalación Linux nativa.
+
+Relación DevSecOps:
+
+Comprender las diferencias entre entornos de laboratorio y producción.
+
+## Lección Aprendida #016
+
+Un script de auditoría permite consolidar múltiples verificaciones operativas y de seguridad en una única ejecución.
+
+Ejemplo:
+
+./scripts/system-audit.sh
+
+Beneficios:
+
+- Estandarización
+- Repetibilidad
+- Automatización
+- Recolección de evidencia
+
+Relación DevSecOps:
+
+Infrastructure Assessment y Security as Code.
+
+## Lección Aprendida #017
+
+No todos los scripts tienen el mismo propósito.
+
+Monitorización:
+
+Objetivo:
+Conocer el estado actual del sistema.
+
+Auditoría:
+
+Objetivo:
+Evaluar seguridad, configuración y cumplimiento.
+
+Ejemplos:
+
+monitor.sh
+→ Salud operativa
+
+system-audit.sh
+→ Estado operativo y seguridad
+
+Relación DevSecOps:
+
+Observabilidad y Security Assessment.
+

@@ -1,13 +1,25 @@
 #!/bin/bash
 
-echo "===== SYSTEM INFO ====="
+echo "=================================="
+echo "DEVSECOPS SYSTEM MONITOR"
+echo "=================================="
+
+echo
+echo "[1] DATE"
 date
 
-echo "\nUptime:"
+echo
+echo "[2] UPTIME"
 uptime
 
-echo "\nDisk usage:"
-df -h
+echo
+echo "[3] MEMORY"
+free -h
 
-echo "\nMemory usage:"
-free -m
+echo
+echo "[4] DISK"
+df -h /
+
+echo
+echo "[5] LOAD"
+uptime
