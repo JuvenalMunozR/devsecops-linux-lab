@@ -695,7 +695,7 @@ Operadores comunes:
 * `-d` → directorio existente
 
 Ejemplo:
-
+ 
 ```
 if [ ! -f "$FILE" ]; then
     echo "Error: file does not exist"
@@ -785,5 +785,103 @@ Casos de uso:
 Relación DevSecOps:
 
 Infrastructure Validation.
+
+## Lección Aprendida #028
+
+Docker Desktop y WSL2 requieren integración explícita
+para que la distribución Linux pueda utilizar el motor
+Docker instalado en Windows.
+
+Síntoma:
+
+docker: command not found
+
+Causa:
+
+La integración WSL no está habilitada o Docker Desktop
+no está ejecutándose.
+
+Relación DevSecOps:
+
+Container Platform Management.
+
+
+## Lección Aprendida #029
+
+Docker asigna nombres únicos a cada contenedor.
+
+Si un nombre ya existe, Docker impedirá la creación
+de un nuevo contenedor con el mismo identificador.
+
+Comandos útiles:
+
+docker run
+docker start
+docker exec
+
+Relación DevSecOps:
+
+Container Lifecycle Management.
+
+## Lección Aprendida #030
+
+Un contenedor Docker es un entorno aislado del host.
+
+Las herramientas disponibles dentro del contenedor
+dependen exclusivamente de la imagen utilizada.
+
+El hecho de que Docker esté instalado en el host
+no implica que Docker esté disponible dentro
+del contenedor.
+
+Relación DevSecOps:
+
+Container Isolation.
+
+## Lección Aprendida #031
+
+Los Docker Volumes permiten persistir datos fuera
+del ciclo de vida de un contenedor.
+
+Un contenedor puede ser eliminado sin perder
+la información almacenada en el volumen asociado.
+
+Beneficios:
+
+- Persistencia
+- Backups
+- Recuperación
+- Aplicaciones Stateful
+
+Relación DevSecOps:
+
+Data Persistence y Container Storage.
+
+## Lección Aprendida #032
+
+Un Dockerfile permite definir una imagen mediante código.
+
+Cada instrucción genera una capa reutilizable durante
+el proceso de construcción de la imagen.
+
+Conceptos clave:
+
+- FROM
+- RUN
+- CMD
+- Layers
+
+Beneficios:
+
+- Reproducibilidad
+- Automatización
+- Versionado
+- Integración CI/CD
+
+Relación DevSecOps:
+
+Infrastructure as Code e Immutable Infrastructure.
+
+
 
 
