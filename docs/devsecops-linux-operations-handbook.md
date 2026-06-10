@@ -543,3 +543,247 @@ Relación DevSecOps:
 
 Observabilidad y Security Assessment.
 
+## Lección Aprendida #018
+
+Las variables permiten almacenar información
+reutilizable dentro de un script Bash.
+
+Ejemplo:
+
+HOST_NAME=$(hostname)
+
+USER_NAME=$(whoami)
+
+CURRENT_DATE=$(date)
+
+Beneficios:
+
+- Reutilización
+- Automatización
+- Mantenibilidad
+- Legibilidad
+
+Las variables pueden almacenar:
+
+- Texto
+- Números
+- Rutas
+- Resultados de comandos
+
+Relación DevSecOps:
+
+Infrastructure Automation y Script Reusability.
+
+## Lección Aprendida #019
+
+Los argumentos permiten enviar información a un script durante su ejecución.
+
+Ejemplo:
+
+./script.sh valor1 valor2
+
+Dentro del script:
+
+$1 → primer argumento
+$2 → segundo argumento
+
+Beneficios:
+
+- Reutilización
+- Flexibilidad
+- Automatización
+
+Relación DevSecOps:
+
+Deployment Automation.
+
+## Lección Aprendida #020
+
+Los condicionales permiten que un script tome decisiones
+en función de una condición evaluada.
+
+Ejemplo:
+
+if [ "$ENVIRONMENT" = "prod" ]
+
+Casos de uso:
+
+- Deployments
+- Validaciones
+- Hardening
+- Auditorías
+- Automatización
+
+Relación DevSecOps:
+
+Decision Automation.
+
+## Lección Aprendida #021
+
+Las funciones permiten encapsular y reutilizar bloques
+de código dentro de un script.
+
+Ejemplo:
+
+show_system_info() {
+    echo "Hostname: $(hostname)"
+}
+
+Beneficios:
+
+- Modularidad
+- Reutilización
+- Mantenimiento
+- Legibilidad
+
+Relación DevSecOps:
+
+Automation Engineering.
+
+## Lección Aprendida #022
+
+El carácter * actúa como wildcard (comodín)
+en Bash y Linux.
+
+Ejemplos:
+
+chmod 755 *.sh
+
+rm *.tmp
+
+cat *.log
+
+Permite ejecutar operaciones sobre múltiples archivos
+simultáneamente.
+
+Relación DevSecOps:
+
+Automatización y administración masiva de recursos.
+
+## Lección Aprendida #023
+
+Los scripts deben validar los argumentos recibidos
+antes de ejecutar acciones.
+
+Conceptos:
+
+$#
+→ Número de argumentos recibidos.
+
+exit 1
+→ Finalización con error.
+
+Beneficios:
+
+- Evitar errores operacionales
+- Mejor experiencia de uso
+- Scripts más robustos
+
+Relación DevSecOps:
+
+Input Validation y Automation Reliability.
+
+---
+
+## Lección Aprendida #024
+
+Los scripts deben verificar la existencia de archivos y recursos antes de utilizarlos.
+
+Operadores comunes:
+
+* `-f` → archivo existente
+* `-d` → directorio existente
+
+Ejemplo:
+
+```
+if [ ! -f "$FILE" ]; then
+    echo "Error: file does not exist"
+    exit 1
+fi
+```
+
+Beneficios:
+
+* Evitar errores de ejecución
+* Mayor confiabilidad
+* Automatización más segura
+* Validación preventiva
+
+Relación DevSecOps:
+
+Defensive Scripting y Automation Reliability.
+
+---
+
+## Lección Aprendida #025
+
+Los logs permiten registrar eventos y actividades de un script para auditoría y troubleshooting.
+
+Operadores:
+
+* `>` → sobrescribir archivo
+* `>>` → agregar al archivo
+
+Beneficios:
+
+* Auditoría
+* Trazabilidad
+* Diagnóstico
+* Evidencia operacional
+
+Relación DevSecOps:
+
+Observability y Operational Logging.
+
+---
+
+## Lección Aprendida #026
+
+La terminal Bash interpreta cualquier línea ingresada como un comando a ejecutar.
+
+Si se pega texto descriptivo o salidas de comandos, Bash intentará ejecutarlos y generará errores como:
+
+* command not found
+* Permission denied
+* Is a directory
+
+Buenas prácticas:
+
+* Ejecutar únicamente comandos válidos.
+* No copiar el prompt junto al comando.
+* No pegar salidas de comandos en la terminal.
+
+Relación DevSecOps:
+
+Command Line Fundamentals.
+
+---
+
+## Lección Aprendida #027
+
+Los scripts pueden validar directorios mediante el operador:
+
+`-d`
+
+Ejemplo:
+
+```
+if [ ! -d "$DIRECTORY" ]; then
+    echo "Directory does not exist"
+    exit 1
+fi
+```
+
+Casos de uso:
+
+* Backups
+* Logs
+* Artefactos CI/CD
+* Directorios de despliegue
+
+Relación DevSecOps:
+
+Infrastructure Validation.
+
+
