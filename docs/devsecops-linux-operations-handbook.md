@@ -882,6 +882,122 @@ Relación DevSecOps:
 
 Infrastructure as Code e Immutable Infrastructure.
 
+## Lección Aprendida #033
+
+Docker permite crear redes personalizadas mediante
+el driver bridge.
+
+Cada red posee su propio segmento IP, gateway
+y espacio de comunicación entre contenedores.
+
+Comandos utilizados:
+
+docker network create
+docker network ls
+docker network inspect
+
+Relación DevSecOps:
+
+Container Networking y Service Communication.
+
+## Lección Aprendida #034
+
+Docker proporciona resolución DNS interna para
+contenedores conectados a una misma red.
+
+Los contenedores pueden comunicarse utilizando
+sus nombres sin necesidad de conocer direcciones IP.
+
+Ejemplo:
+
+app1 → app2
+
+Beneficios:
+
+- Menor dependencia de IPs
+- Mayor portabilidad
+- Simplificación de arquitecturas
+
+Relación DevSecOps:
+
+Service Discovery y Container Communication.
+
+## Lección Aprendida #035
+
+Docker permite exponer servicios internos mediante
+Port Mapping.
+
+Sintaxis:
+
+docker run -p HOST_PORT:CONTAINER_PORT
+
+Ejemplo:
+
+docker run -d -p 8080:80 nginx
+
+Esto permite acceder a una aplicación contenida
+desde el sistema host.
+
+Beneficios:
+
+- Publicación de servicios
+- Acceso desde navegadores
+- Integración entre aplicaciones
+- Exposición controlada de servicios
+
+Relación DevSecOps:
+
+Container Networking y Service Exposure.
+
+## Lección Aprendida #036
+
+Un contenedor Docker puede pertenecer a múltiples
+redes simultáneamente.
+
+Esto permite separar servicios según sus funciones
+y controlar los flujos de comunicación.
+
+Comandos utilizados:
+
+docker network connect
+
+docker inspect
+
+Beneficios:
+
+- Segmentación de red
+- Mayor aislamiento
+- Arquitecturas escalables
+- Mejor control de tráfico
+
+Relación DevSecOps:
+
+Network Segmentation y Microservices Architecture.
+
+## Lección Aprendida #037
+
+Docker permite conectar y desconectar contenedores
+de redes existentes sin necesidad de recrearlos.
+
+Comandos utilizados:
+
+docker network connect
+
+docker network disconnect
+
+Beneficios:
+
+- Flexibilidad operativa
+- Segmentación dinámica
+- Aislamiento de servicios
+- Administración simplificada
+
+Relación DevSecOps:
+
+Network Isolation y Container Lifecycle Management.
+
+
+
 
 
 
