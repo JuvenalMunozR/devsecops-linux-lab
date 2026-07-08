@@ -996,6 +996,73 @@ Relación DevSecOps:
 
 Network Isolation y Container Lifecycle Management.
 
+# Referencia Operativa
+
+---
+
+## docker compose up -d
+
+### Propósito
+
+Crear y levantar todos los servicios definidos en el archivo `compose.yaml`.
+
+### Sintaxis
+
+```bash
+docker compose up -d
+```
+
+### Cuándo utilizarlo
+
+- Primer despliegue de una aplicación.
+- Después de modificar el archivo `compose.yaml`.
+- Cuando los contenedores no existen.
+
+### Resultado esperado
+
+- Creación de la red Docker (si corresponde).
+- Creación de contenedores.
+- Inicio automático de todos los servicios.
+
+### Buenas prácticas
+
+Verificar posteriormente:
+
+```bash
+docker compose ps
+```
+
+---
+
+## docker compose ps
+
+### Propósito
+
+Mostrar el estado de todos los servicios administrados por Docker Compose.
+
+### Sintaxis
+
+```bash
+docker compose ps
+```
+
+### Cuándo utilizarlo
+
+- Después de ejecutar `docker compose up`.
+- Antes de iniciar tareas de mantenimiento.
+- Para verificar si un servicio está en ejecución.
+
+### Resultado esperado
+
+Lista de servicios con información de:
+
+- Estado
+- Puertos
+- Nombre del contenedor
+
+### Buenas prácticas
+
+Utilizar este comando como primera verificación antes de diagnosticar problemas o ejecutar otros comandos de Docker Compose.
 
 
 
