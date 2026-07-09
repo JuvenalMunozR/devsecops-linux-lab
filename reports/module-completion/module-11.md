@@ -1,24 +1,24 @@
 # Module 11 - Docker Compose Fundamentals Progress Report
 
-## Objetivo
+## Objective
 
-Comprender los fundamentos de Docker Compose para desplegar y administrar aplicaciones mediante un archivo declarativo (`compose.yaml`).
-
----
-
-## Actividades realizadas
-
-- Creación del primer archivo `compose.yaml`.
-- Despliegue de una aplicación utilizando Docker Compose.
-- Verificación del estado de los servicios.
-- Administración del ciclo de vida de la aplicación.
-- Validación del acceso mediante navegador.
-- Inspección de imágenes y recursos creados por Compose.
-- Eliminación controlada del entorno de laboratorio.
+Understand the fundamentals of Docker Compose to deploy and manage applications using a declarative configuration file (`compose.yaml`).
 
 ---
 
-## Comandos practicados
+## Activities Performed
+
+- Created the first `compose.yaml` file.
+- Deployed an application using Docker Compose.
+- Verified service status.
+- Managed the application lifecycle.
+- Validated browser access.
+- Inspected Docker images and Compose resources.
+- Performed controlled environment cleanup.
+
+---
+
+## Commands Practiced
 
 ```bash
 docker compose up -d
@@ -34,31 +34,31 @@ docker network ls
 
 ---
 
-## Competencias desarrolladas
+## Skills Developed
 
-- Administración declarativa con Docker Compose.
-- Gestión del ciclo de vida de aplicaciones.
-- Diagnóstico de servicios Docker.
-- Comprensión de redes y recursos creados por Compose.
-- Organización y documentación de laboratorios técnicos.
+- Docker Compose fundamentals.
+- Declarative application management.
+- Application lifecycle management.
+- Docker service troubleshooting.
+- Understanding of Docker networks and Compose resources.
+- Technical laboratory organization and documentation.
 
 ---
 
-## Valor Profesional
+## Professional Value
 
-Este módulo fortalece competencias utilizadas en funciones de:
+This module strengthens practical skills commonly required in roles such as:
 
 - DevOps Engineer
 - DevSecOps Engineer
 - Cloud Engineer
-- Analista de Infraestructura
-- Analista de Ciberseguridad
+- Infrastructure Engineer
+- Cybersecurity Analyst
 
-permitiendo administrar aplicaciones de forma reproducible, documentada y alineada con buenas prácticas operativas.
+These capabilities enable the deployment, administration, troubleshooting, and documentation of containerized applications following industry best practices.
 
 ---
 
-## Estado del módulo
+## Module Status
 
-Module 11 completado satisfactoriamente en su etapa de fundamentos.
-
+Module 11 successfully completed (Fundamentals).
