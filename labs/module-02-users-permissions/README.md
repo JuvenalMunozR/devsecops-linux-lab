@@ -6,6 +6,14 @@ Understand Linux user management, file ownership, permissions, and privilege con
 
 ---
 
+## Prerequisites
+
+- Module 01 completed
+- Ubuntu (WSL2 or native)
+- Basic terminal usage
+
+---
+
 ## Topics Covered
 
 * User identification
@@ -87,6 +95,35 @@ Understanding permissions helps prevent unauthorized access and reduce attack su
 
 ---
 
+## Expected Deliverables
+
+By completing this laboratory you should be able to:
+
+- Create and identify Linux users.
+- Understand ownership relationships.
+- Modify permissions safely.
+- Interpret numeric and symbolic permissions.
+- Apply least privilege principles.
+
+---
+
 ## Laboratory Outcome
 
 Successfully explored Linux user identities, permission models, ownership concepts, and secure access control practices.
+
+---
+
+## Evidence
+
+Store screenshots and command outputs under:
+
+assets/screenshots/
+
+---
+
+## Next Module
+
+Module 03 — Process Management
+
+---
+
