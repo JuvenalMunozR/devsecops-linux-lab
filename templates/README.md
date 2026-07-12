@@ -1,12 +1,13 @@
 # Templates
 
-Reusable templates shared across the Engineering Portfolio.
+Reusable templates for the Engineering Portfolio.
 
-Future templates:
+## Planned Templates
 
 - README
-- Lab
+- Laboratory
 - Assessment Report
 - Incident Report
 - Security Review
 - Checklist
+- Architecture Decision Record (ADR)
