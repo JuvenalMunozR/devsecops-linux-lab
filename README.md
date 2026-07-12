@@ -6,6 +6,7 @@ This repository documents the complete setup, administration and hardening of a 
 
 It combines theoretical documentation, hands-on laboratories, reusable automation scripts and security best practices to prepare the platform used by the remaining Engineering Portfolio repositories.
 
+---
 
 
 ## Repository Role
@@ -30,6 +31,8 @@ This repository demonstrates practical skills in:
 - Linux Security Hardening
 - Troubleshooting
 - Environment Preparation for DevSecOps
+
+---
 
 
 ## Objectives
@@ -125,6 +128,8 @@ Documentation Language: English
 Learning Notes: Spanish
 
 Portfolio Version: Engineering Portfolio v2
+
+---
 
 ## Engineering Portfolio
 
