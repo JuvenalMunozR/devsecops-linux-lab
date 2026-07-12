@@ -2,11 +2,13 @@
 
 ## Overview
 
-This repository documents the design, implementation and administration of a professional Linux environment used as the foundation for DevSecOps engineering.
+## Repository Role
 
-It focuses on Linux system administration, Bash automation, Docker fundamentals, Git workflows and Linux security hardening.
+This repository is the foundation of the Engineering Portfolio.
 
-This repository is the starting point of the Engineering Portfolio.
+Its purpose is to build, configure, administer and secure a professional Linux environment that will be used by the subsequent repositories of the portfolio.
+
+It is not intended to cover network security assessments, cloud security or CI/CD security implementations.
 
 ---
 
