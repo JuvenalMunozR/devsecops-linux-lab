@@ -2,6 +2,12 @@
 
 ## Overview
 
+This repository documents the complete setup, administration and hardening of a Linux environment designed as the foundation for DevSecOps engineering.
+
+It combines theoretical documentation, hands-on laboratories, reusable automation scripts and security best practices to prepare the platform used by the remaining Engineering Portfolio repositories.
+
+
+
 ## Repository Role
 
 This repository is the foundation of the Engineering Portfolio.
@@ -11,6 +17,20 @@ Its purpose is to build, configure, administer and secure a professional Linux e
 It is not intended to cover network security assessments, cloud security or CI/CD security implementations.
 
 ---
+
+## Professional Competencies
+
+This repository demonstrates practical skills in:
+
+- Linux System Administration
+- Bash Automation
+- Docker Fundamentals
+- Git & GitHub
+- Linux Networking
+- Linux Security Hardening
+- Troubleshooting
+- Environment Preparation for DevSecOps
+
 
 ## Objectives
 
@@ -83,7 +103,7 @@ It is not intended to cover network security assessments, cloud security or CI/C
 
 ---
 
-## Technologies
+## Technology Stack
 
 - Ubuntu
 - WSL2
@@ -94,11 +114,26 @@ It is not intended to cover network security assessments, cloud security or CI/C
 
 ---
 
-## Related Projects
+## Repository Status
 
-- Network Security Lab *(coming soon)*
+Current Status: Active Development
+
+Completed Modules: 10
+
+Documentation Language: English
+
+Learning Notes: Spanish
+
+Portfolio Version: Engineering Portfolio v2
+
+## Engineering Portfolio
+
+- DevSecOps Linux Lab ← Current Repository
+- Network Security Lab *(Next)*
 - DevSecOps Secure Pipeline
-- Cloud Security Lab *(planned)*
+- Cloud Security Lab *(Planned)*
+- Container Security Lab *(Planned)*
+- Engineering Mindset *(Knowledge Base - Future)*
 
 ---
 
