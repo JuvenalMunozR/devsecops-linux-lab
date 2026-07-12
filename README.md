@@ -1,122 +1,106 @@
-# 🧪 DevSecOps Linux Lab (Foundations)
+# DevSecOps Linux Lab
 
-## 🎯 Objective
+## Overview
 
-Build a strong Linux and operational security foundation for DevSecOps engineering practices.
+This repository documents the design, implementation and administration of a professional Linux environment used as the foundation for DevSecOps engineering.
 
-This repository focuses on developing practical skills in:
+It focuses on Linux system administration, Bash automation, Docker fundamentals, Git workflows and Linux security hardening.
 
-* Linux fundamentals
-* Filesystem management
-* User and permission administration
-* Process management
-* Linux networking
-* System monitoring
-* Host security
-* Bash scripting
-* Docker foundations
-* Operational troubleshooting
+This repository is the starting point of the Engineering Portfolio.
 
 ---
 
-## 🛠 Repository Structure
+## Objectives
+
+- Build a professional Linux environment.
+- Learn Linux system administration.
+- Automate administrative tasks using Bash.
+- Manage Docker environments.
+- Apply Linux hardening practices.
+- Prepare the environment for future DevSecOps and Cybersecurity projects.
+
+---
+
+## Repository Scope
+
+### Included
+
+- Linux Administration
+- Filesystem
+- Users & Permissions
+- Process Management
+- Networking Fundamentals
+- System Monitoring
+- Package Management
+- Bash Scripting
+- Docker Fundamentals
+- Docker Networking
+- Git & GitHub
+- Linux Hardening
+
+### Not Included
+
+- Network Security Assessments
+- Penetration Testing
+- Wireshark
+- Nmap
+- Cloud Security
+- CI/CD Pipelines
+
+---
+
+## Repository Structure
 
 ```text
-docs/       → Technical documentation and study guides
-labs/       → Hands-on laboratories organized by module
-security/   → Security auditing and host hardening scripts
-scripts/    → Linux automation and operational scripts
-reports/    → Learning reports and module completion summaries
-assets/     → Images, screenshots, and supporting evidence
+.
+├── docs/
+├── labs/
+├── scripts/
+├── security/
+├── assets/
+├── reports/
+└── app/
 ```
 
 ---
 
-## 📈 Laboratory Progress
+## Learning Path
 
-### Completed Modules
-
-* [x] Linux Filesystem Foundations
-* [x] Users and Permissions
-* [x] Process Management
-
-### Module in Progress
-
-* [ ] Networking Foundations
-
-### Upcoming Modules
-
-* [ ] System Monitoring
-* [ ] Package Management
-* [ ] Linux Hardening
-* [ ] Bash Scripting
-* [ ] Docker Foundations
-* [ ] Git & GitHub Foundations
+| Module | Topic |
+|---------|------|
+| 01 | Linux Filesystem |
+| 02 | Users and Permissions |
+| 03 | Process Management |
+| 04 | Networking Basics |
+| 05 | System Monitoring |
+| 06 | Package Management |
+| 07 | Linux Hardening |
+| 08 | Bash Scripting |
+| 09 | Docker Foundations |
+| 10 | Docker Networking |
 
 ---
 
-## 🎓 Skills Developed
+## Technologies
 
-This laboratory promotes practical experience in:
-
-* Linux Administration
-* Operational Troubleshooting
-* User and Permission Management
-* Process Monitoring
-* Host Security
-* Linux Networking
-* Bash Scripting
-* Docker Fundamentals
-* Automation
-* DevSecOps Mindset
+- Ubuntu
+- WSL2
+- Bash
+- Docker
+- Git
+- GitHub
 
 ---
 
-## 🚀 DevSecOps Learning Path
+## Related Projects
 
-This repository represents the foundational layer of a broader DevSecOps learning journey.
-
-The next stage continues in:
-
-GitHub Repository:
-https://github.com/JuvenalMunozR/devsecops-secure-pipeline
-
-Focused on:
-
-* Secure CI/CD
-* GitHub Actions
-* SAST
-* Trivy
-* Container Security
-* Docker Hardening
-* Security Automation
+- Network Security Lab *(coming soon)*
+- DevSecOps Secure Pipeline
+- Cloud Security Lab *(planned)*
 
 ---
 
-## 👨‍💻 Author
+## License
 
-**Juvenal Muñoz**
+MIT
 
-Computer Engineer focused on:
-
-* Cybersecurity
-* Linux
-* DevSecOps
-* Cloud Computing
-
-GitHub:
-https://github.com/JuvenalMunozR
-
----
-
-## 📚 Purpose
-
-This project is part of a practical specialization roadmap focused on:
-
-* Linux Administration
-* DevSecOps
-* Cybersecurity
-* Automation
-* Cloud & Security Engineering
-
-The goal is to build hands-on experience through structured laboratories, documentation, troubleshooting exercises, and security-oriented operational practices.
