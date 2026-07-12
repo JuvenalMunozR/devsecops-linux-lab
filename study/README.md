@@ -2,9 +2,9 @@
 
 ## Purpose
 
-This directory contains the personal learning material associated with this repository.
+This directory contains the personal learning material developed throughout this repository.
 
-Unlike the public documentation, the content stored here is intended for knowledge consolidation and technical mentoring.
+The content is intended for study, mentoring, technical notes and knowledge consolidation.
 
 ## Contents
 
@@ -16,4 +16,4 @@ Unlike the public documentation, the content stored here is intended for knowled
 - Cheatsheets
 - Roadmap
 
-> This directory is not part of the public portfolio documentation.
+> Internal learning documentation (Spanish)
