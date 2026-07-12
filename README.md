@@ -74,6 +74,20 @@ This repository demonstrates practical skills in:
 
 ---
 
+## Repository Deliverables
+
+At the end of this repository the following competencies are demonstrated:
+
+- Professional Linux administration
+- Bash scripting
+- Docker fundamentals
+- Linux networking
+- Linux security hardening
+- Git workflow
+- Environment preparation for DevSecOps
+
+---
+
 ## Repository Structure
 
 ```text
