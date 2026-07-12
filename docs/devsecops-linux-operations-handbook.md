@@ -1,3 +1,10 @@
+> [!IMPORTANT]
+> This handbook is currently under architectural refactoring.
+>
+> The content will be progressively split into smaller documents following the Engineering Portfolio standards.
+>
+> Current status: Refactoring in progress.
+
 # Manual Operativo Linux para DevSecOps
 
 ## Propósito
