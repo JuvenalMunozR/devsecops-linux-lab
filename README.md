@@ -1,122 +1,179 @@
-# 🧪 DevSecOps Linux Lab (Foundations)
+# DevSecOps Linux Lab
 
-## 🎯 Objective
+## Overview
 
-Build a strong Linux and operational security foundation for DevSecOps engineering practices.
+This repository documents the complete setup, administration and hardening of a Linux environment designed as the foundation for DevSecOps engineering.
 
-This repository focuses on developing practical skills in:
-
-* Linux fundamentals
-* Filesystem management
-* User and permission administration
-* Process management
-* Linux networking
-* System monitoring
-* Host security
-* Bash scripting
-* Docker foundations
-* Operational troubleshooting
+It combines theoretical documentation, hands-on laboratories, reusable automation scripts and security best practices to prepare the platform used by the remaining Engineering Portfolio repositories.
 
 ---
 
-## 🛠 Repository Structure
+
+## Repository Role
+
+This repository is the foundation of the Engineering Portfolio.
+
+Its purpose is to build, configure, administer and secure a professional Linux environment that will be used by the subsequent repositories of the portfolio.
+
+It is not intended to cover network security assessments, cloud security or CI/CD security implementations.
+
+---
+
+## Professional Competencies
+
+This repository demonstrates practical skills in:
+
+- Linux System Administration
+- Bash Automation
+- Docker Fundamentals
+- Git & GitHub
+- Linux Networking
+- Linux Security Hardening
+- Troubleshooting
+- Environment Preparation for DevSecOps
+
+---
+
+
+## Objectives
+
+- Build a professional Linux environment.
+- Learn Linux system administration.
+- Automate administrative tasks using Bash.
+- Manage Docker environments.
+- Apply Linux hardening practices.
+- Prepare the environment for future DevSecOps and Cybersecurity projects.
+
+---
+
+## Repository Scope
+
+### Included
+
+- Linux Administration
+- Filesystem
+- Users & Permissions
+- Process Management
+- Networking Fundamentals
+- System Monitoring
+- Package Management
+- Bash Scripting
+- Docker Fundamentals
+- Docker Networking
+- Git & GitHub
+- Linux Hardening
+
+### Not Included
+
+- Network Security Assessments
+- Penetration Testing
+- Wireshark
+- Nmap
+- Cloud Security
+- CI/CD Pipelines
+
+---
+
+## Repository Deliverables
+
+At the end of this repository the following competencies are demonstrated:
+
+- Professional Linux administration
+- Bash scripting
+- Docker fundamentals
+- Linux networking
+- Linux security hardening
+- Git workflow
+- Environment preparation for DevSecOps
+
+---
+
+## Repository Structure
 
 ```text
-docs/       → Technical documentation and study guides
-labs/       → Hands-on laboratories organized by module
-security/   → Security auditing and host hardening scripts
-scripts/    → Linux automation and operational scripts
-reports/    → Learning reports and module completion summaries
-assets/     → Images, screenshots, and supporting evidence
+.
+├── docs/
+├── labs/
+├── scripts/
+├── security/
+├── assets/
+├── reports/
+└── app/
 ```
 
 ---
 
-## 📈 Laboratory Progress
+## Learning Path
 
-### Completed Modules
-
-* [x] Linux Filesystem Foundations
-* [x] Users and Permissions
-* [x] Process Management
-
-### Module in Progress
-
-* [ ] Networking Foundations
-
-### Upcoming Modules
-
-* [ ] System Monitoring
-* [ ] Package Management
-* [ ] Linux Hardening
-* [ ] Bash Scripting
-* [ ] Docker Foundations
-* [ ] Git & GitHub Foundations
+| Module | Topic |
+|---------|------|
+| 01 | Linux Filesystem |
+| 02 | Users and Permissions |
+| 03 | Process Management |
+| 04 | Networking Basics |
+| 05 | System Monitoring |
+| 06 | Package Management |
+| 07 | Linux Hardening |
+| 08 | Bash Scripting |
+| 09 | Docker Foundations |
+| 10 | Docker Networking |
 
 ---
 
-## 🎓 Skills Developed
+## Technology Stack
 
-This laboratory promotes practical experience in:
-
-* Linux Administration
-* Operational Troubleshooting
-* User and Permission Management
-* Process Monitoring
-* Host Security
-* Linux Networking
-* Bash Scripting
-* Docker Fundamentals
-* Automation
-* DevSecOps Mindset
+- Ubuntu
+- WSL2
+- Bash
+- Docker
+- Git
+- GitHub
 
 ---
 
-## 🚀 DevSecOps Learning Path
+## Repository Status
 
-This repository represents the foundational layer of a broader DevSecOps learning journey.
+Current Status: Active Development
 
-The next stage continues in:
+Completed Modules: 10
 
-GitHub Repository:
-https://github.com/JuvenalMunozR/devsecops-secure-pipeline
+Documentation Language: English
 
-Focused on:
+Learning Notes: Spanish
 
-* Secure CI/CD
-* GitHub Actions
-* SAST
-* Trivy
-* Container Security
-* Docker Hardening
-* Security Automation
+Portfolio Version: Engineering Portfolio v2
 
 ---
 
-## 👨‍💻 Author
+## Engineering Portfolio
 
-**Juvenal Muñoz**
-
-Computer Engineer focused on:
-
-* Cybersecurity
-* Linux
-* DevSecOps
-* Cloud Computing
-
-GitHub:
-https://github.com/JuvenalMunozR
+- DevSecOps Linux Lab ← Current Repository
+- Network Security Lab *(Next)*
+- DevSecOps Secure Pipeline
+- Cloud Security Lab *(Planned)*
+- Container Security Lab *(Planned)*
+- Engineering Mindset *(Knowledge Base - Future)*
 
 ---
 
-## 📚 Purpose
+## License
 
-This project is part of a practical specialization roadmap focused on:
+MIT
 
-* Linux Administration
-* DevSecOps
-* Cybersecurity
-* Automation
-* Cloud & Security Engineering
+---
 
-The goal is to build hands-on experience through structured laboratories, documentation, troubleshooting exercises, and security-oriented operational practices.
+## Repository Evolution
+
+Version 1
+
+Learning Linux.
+
+Version 2
+
+Professional Linux environment.
+
+Version 3
+
+Future integration with the Engineering Portfolio.
+
+---

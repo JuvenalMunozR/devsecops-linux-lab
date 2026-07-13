@@ -6,6 +6,14 @@ Understand the Linux filesystem structure, navigation commands, and the location
 
 ---
 
+## Prerequisites
+
+- Ubuntu (WSL2 or native)
+- Basic terminal usage
+- Git installed
+
+---
+
 ## Topics Covered
 
 * Linux filesystem hierarchy
@@ -59,6 +67,36 @@ A strong filesystem foundation is required before working with containers, CI/CD
 
 ---
 
+## Expected Deliverables
+
+By completing this laboratory you should be able to:
+
+- Navigate the Linux filesystem confidently.
+- Identify the purpose of critical system directories.
+- Manage files and directories from the command line.
+- Understand the relationship between filesystem organization and system administration.
+
+---
+
 ## Laboratory Outcome
 
 Successfully explored the Linux filesystem hierarchy and practiced navigation, file management, and system structure analysis.
+
+---
+
+---
+
+## Evidence
+
+Store screenshots and command outputs under:
+
+assets/screenshots/
+
+---
+
+## Next Module
+
+Module 02 — Users and Permissions
+
+---
+

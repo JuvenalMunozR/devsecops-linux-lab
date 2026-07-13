@@ -1,145 +1,74 @@
-# Linux Hardening
+# Module 07 - Linux Hardening
 
-## Introducción
+## Objective
 
-Linux Hardening es el proceso de reducir la superficie de ataque de un sistema operativo mediante la aplicación de controles de seguridad, restricciones de acceso y buenas prácticas operacionales.
-
-El objetivo es minimizar el riesgo de explotación y mejorar la postura de seguridad del sistema.
+Apply security hardening techniques to reduce the attack surface of Linux systems.
 
 ---
 
-## Objetivos del Hardening
+## Learning Outcomes
 
-* Reducir la superficie de ataque.
-* Limitar privilegios innecesarios.
-* Detectar configuraciones inseguras.
-* Mejorar la capacidad de auditoría.
-* Aumentar la resiliencia frente a ataques.
+After completing this module you will be able to:
 
----
-
-## Principios Fundamentales
-
-### Principio de Mínimo Privilegio
-
-Los usuarios y procesos deben tener únicamente los permisos estrictamente necesarios para realizar sus funciones.
-
-### Defensa en Profundidad
-
-La seguridad debe implementarse en múltiples capas:
-
-* Usuarios
-* Sistema operativo
-* Red
-* Aplicaciones
-* Monitoreo
-
-### Reducción de Superficie de Ataque
-
-Eliminar o deshabilitar servicios, puertos y funcionalidades que no sean necesarias.
+- Identify insecure configurations.
+- Apply least privilege.
+- Audit user permissions.
+- Improve host security.
+- Perform basic security assessments.
 
 ---
 
-## Controles Básicos de Hardening
+## Topics
 
-### Auditoría de Usuarios Privilegiados
+- Least Privilege
+- File Permissions
+- User Security
+- SSH Hardening
+- Firewall
+- Security Auditing
 
-Comandos:
+---
+
+## Common Commands
 
 ```bash
-getent group sudo
-id
-whoami
-```
-
-Objetivo:
-
-Identificar usuarios con privilegios administrativos.
-
----
-
-### Auditoría de Puertos
-
-Comando:
-
-```bash
-ss -tulnp
-```
-
-Objetivo:
-
-Detectar servicios expuestos.
-
----
-
-### Auditoría de Servicios
-
-Comando:
-
-```bash
-systemctl list-unit-files --type=service
-```
-
-Objetivo:
-
-Identificar servicios habilitados.
-
----
-
-### Actualizaciones de Seguridad
-
-Comandos:
-
-```bash
-apt list --upgradable
-systemctl is-enabled unattended-upgrades
-```
-
-Objetivo:
-
-Verificar estado de parches y actualizaciones automáticas.
-
----
-
-### Control de Aplicaciones
-
-AppArmor permite restringir las acciones que pueden realizar los procesos.
-
-Comando:
-
-```bash
-systemctl status apparmor
+chmod
+chown
+find
+ss
+ufw
+sudo
 ```
 
 ---
 
-## Relación con DevSecOps
+## Security Perspective
 
-Linux Hardening es una práctica fundamental para:
-
-* Cloud Security
-* Vulnerability Management
-* Compliance
-* Infrastructure as Code
-* Security as Code
+Hardening transforms a default installation into a production-ready operating system.
 
 ---
 
-## Herramientas Utilizadas en el Laboratorio
+## Laboratory
 
-* ss
-* getent
-* systemctl
-* apt
-* AppArmor
+See:
+
+labs/module-07-linux-hardening/
 
 ---
 
-## Resultado Esperado
+## Related Scripts
 
-Un sistema Linux con:
+security/
 
-* Menos servicios expuestos.
-* Menos privilegios innecesarios.
-* Mejor capacidad de auditoría.
-* Menor riesgo operativo.
+scripts/system-audit.sh
+
+scripts/check-open-ports.sh
+
+---
+
+## References
+
+- CIS Linux Benchmarks
+- Ubuntu Security Documentation
+
+---

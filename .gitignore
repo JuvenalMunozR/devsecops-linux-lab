@@ -17,3 +17,7 @@ reports/system-audit-*.txt
 
 # VS Code
 .vscode/settings.json
+
+reports/raw/*
+!reports/raw/.gitkeep
+
